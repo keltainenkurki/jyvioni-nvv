@@ -3,11 +3,25 @@
 <head>
     <meta charset="utf-8"/>
     <title>{{ page.title } - Keski-Suomen nuori vihreä vaikuttaja -kurssi - Jyvioni</title>
+	<script src="http://cdn.ypcs.fi/media/js/modernizr.custom.95715.js"></script>
 </head>
 <body>
-{{ content }}
-
-
-<script src="http://cdn.ypcs.fi/media/js/jquery-1.7.2.min.js"></script>
+	<div id="page">
+		<header>
+			<h1>Jyväskylän vihreät nuoret ja opiskelijat - Jyvioni ry</h1>
+			<h2>Keski-Suomen nuori vihreä vaikuttaja -kurssi</h2>
+		</header>
+		
+		<div id="main">
+			<h1>{{ page.title }}</h1>
+			{{ content }}
+		</div>
+		
+		<footer>
+			<!-- TODO: Jyvioni, ViNO, ViSiO, Vihreä liitto -logot -->
+			<p class="small quiet"><a href="https://github.com/ypcs/jyvioni-nvv">GitHub</a></p>
+		</footer>
+	</div>
+	<script src="http://cdn.ypcs.fi/media/js/jquery-1.7.2.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+url: http://ypcs.fi
+
+title: Jyvioni
+description: ...
+language: fi
+
+
+markdown: rdiscount
+pygments: true
+exclude:
+    - README.md
+    - requirements.txt
+
+permalink: pretty

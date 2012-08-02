@@ -7,3 +7,7 @@ title: Tietoa
 
 - [Katso kurssin aikataulu](/aikataulu/)
 - [Kysymyksiä ja vastauksia](/kysymyksia-ja-vastauksia/)
+
+Muista myös (tykätä Jyvionista Facebookissa)[https://www.facebook.com/Jyvioni], tiedotamme kurssista tämän sivuston lisäksi myös FB-sivullamme.
+
+Lisätietoja kurssista saat tarvittaessa [Jyvionin puheenjohtajilta](http://www.jyvioni.org/yhteystiedot/).

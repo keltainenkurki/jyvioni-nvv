@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tietoa
+description: Tietoa Keski-Suomen nuori vihreä vaikuttaja -kurssista
 ---
 
 [Jyväskylän vihreät nuoret ja opiskelijat - Jyvioni ry](http://www.jyvioni.org/) järjestää syksyllä 2012 **Keski-Suomen nuori vihreä vaikuttaja** Vihreä sivistysliitto ry:n tukemana. Kurssi on tarkoitettu kaikille vihreiden toiminnasta ja/tai politiikasta kiinnostuneille keskisuomalaisille nuorille. **Kurssi on ilmainen, eikä sille osallistuminen vaadi vihreiden jäsenyyttä.**

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tietoa
+description: Kysymyksiä ja vastauksia Keski-Suomen nuori vihreä vaikuttaja -kurssiin liittyen
 ---
 
 ## Maksaako se jotain?

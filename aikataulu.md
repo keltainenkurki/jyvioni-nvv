@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Aikataulu
+description: Keski-Suomen nuori vihreä vaikuttaja -kurssin aikataulu
 ---
 
 ## Perjantai 14.9.2012: Vihreät nuoret

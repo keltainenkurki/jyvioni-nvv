@@ -1,12 +1,37 @@
+html {
+	background: url('../img/bg.png') repeat #487036;
+}
+
 body {
-	background: url('../img/bg.png') repeat,
-				url('../img/horizontal-bush.png') no-repeat bottom left,
-				url('../img/vertical-bush') no-repeat top right,
-				#487036;
+	background: url('../img/sun.png') no-repeat top left,
+				url('../img/horizontal-bush.png') repeat-x fixed bottom left,
+				url('../img/vertical-bush.png') no-repeat fixed top right,
+				url('../img/plant.png') fixed no-repeat bottom right;
 	font-family: 'Open Sans';
 	color: #fff;
+	line-height: 1.2;
+}
+
+a {
+	&:link {
+		color: orange
+	}
+	
+	&:visited {
+		color: orange;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #fff;
+}
+
+
+#page {
+//	background: rgba(255, 255, 255, 0.5);
+//	color: #000;
+}
+
+footer {
+	padding-bottom: 5em;
 }

@@ -1,4 +1,13 @@
 body {
-  background: url('../img/bg.png') #487036;
+  background: url('../img/bg.png'), url('../img/horizontal-bush.png') no-repeat bottom left, url('../img/vertical-bush') no-repeat top right #487036;
+  font-family: 'Open Sans';
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #fff;
 }

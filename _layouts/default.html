@@ -2,8 +2,9 @@
 <html lang="fi">
 <head>
     <meta charset="utf-8"/>
-    <title>{{ page.title }} - Keski-Suomen nuori vihreä vaikuttaja -kurssi - Jyvioni</title>
+    <title>{{ page.title }} - Jyväskylän vihreät nuoret ja opiskelijat - Jyvioni ry</title>
 	<link rel="stylesheet" href="http://cdn.ypcs.fi/media/gen/common-91a69a57.css"/>
+	<link href="http://fonts.googleapis.com/css?family=Average|Open+Sans:300" rel="stylesheet"/>
 	<link rel="stylesheet" href="media/css/style.css"/>
 	<script src="http://cdn.ypcs.fi/media/js/modernizr.custom.95715.js"></script>
 </head>
@@ -17,13 +18,24 @@
 		<div id="main">
 			<h1>{{ page.title }}</h1>
 			{{ content }}
+			
+			<div class="fb-like" data-send="false" data-width="450" data-show-faces="true"></div>
 		</div>
 		
 		<footer>
 			<!-- TODO: Jyvioni, ViNO, ViSiO, Vihreä liitto -logot -->
+			<p class="small quiet">Kurssin järjestää <a href="http://www.jyvioni.org/">Jyväskylän vihreät nuoret ja opiskelijat - Jyvioni ry</a> &middot; Kurssin järjestämistä tukemassa on Vihreä sivistysliitto ry ja <a href="http://www.visili.fi/">Opintokeskus Visio</a></p>
 			<p class="small quiet"><a href="https://github.com/ypcs/jyvioni-nvv">GitHub</a></p>
 		</footer>
 	</div>
 	<script src="http://cdn.ypcs.fi/media/js/jquery-1.7.2.min.js"></script>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=479137325447561";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

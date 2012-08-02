@@ -25,15 +25,15 @@
 <body>
 	<div id="page">
 		<header>
-			<h1 id="page-title">Jyväskylän vihreät nuoret ja opiskelijat - Jyvioni ry</h1>
-			<h2 id="page-description">Keski-Suomen nuori vihreä vaikuttaja -kurssi</h2>
+			<h1 id="site-title">Jyväskylän vihreät nuoret ja opiskelijat - Jyvioni ry</h1>
+			<h2 id="site-description">Keski-Suomen nuori vihreä vaikuttaja -kurssi</h2>
 		</header>
 		
 		<div id="main">
 			<hgroup>
-				<h1>{{ page.title }}</h1>
+				<h1 id="page-title">{{ page.title }}</h1>
 				{% if page.description %}
-				<h2>{{ page.description }}</h2>
+				<h2 id="page-description">{{ page.description }}</h2>
 				{% endif %}
 			</hgroup>
 			<div class="fb-like" data-send="false" data-width="450" data-show-faces="true"></div>

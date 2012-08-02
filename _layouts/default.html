@@ -3,6 +3,20 @@
 <head>
     <meta charset="utf-8"/>
     <title>{{ page.title }} - Keski-Suomen nuori vihreä vaikuttaja -kurssi &mdash; Jyvioni ry</title>
+	<meta name="author" content="{{ site.url }}/humans.txt"/>
+	<meta name="viewport" content="width=device-width"/>
+	
+	<meta property="og:title" content="{{ page.title }} - {{ site.title }}"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+	{% if page.image %}
+	<meta property="og:image" content="{{ site.url }}/{{ page.image }}"/>
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/media/img/sun.png"/>
+	{% endif %}
+	<meta property="og:site_name" content="{{ site.title }}"/>
+	<meta property="og:description" content="{{ page.description }}">
+	
 	<link rel="stylesheet" href="http://cdn.ypcs.fi/media/gen/common-91a69a57.css"/>
 	<link href="http://fonts.googleapis.com/css?family=Average|Open+Sans:300" rel="stylesheet"/>
 	<link rel="stylesheet" href="{{ site.url }}/media/css/style.css"/>

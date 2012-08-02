@@ -1,11 +1,13 @@
 html {
   background: url('../img/bg.png') repeat #487036;
+  min-height: 100%;
 }
 body {
   background: url('../img/sun.png') no-repeat top left, url('../img/horizontal-bush.png') repeat-x fixed bottom left, url('../img/vertical-bush.png') no-repeat fixed top right, url('../img/plant.png') fixed no-repeat bottom right;
   font-family: 'Open Sans';
   color: #fff;
   line-height: 1.2;
+  min-height: 100%;
 }
 a:link {
   color: #ffa500;
@@ -20,6 +22,9 @@ h4,
 h5,
 h6 {
   color: #fff;
+}
+#page {
+  min-height: 100%;
 }
 footer {
   padding-bottom: 5em;
